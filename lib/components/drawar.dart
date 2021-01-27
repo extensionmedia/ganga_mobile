@@ -23,23 +23,29 @@ class MyDrawar extends StatelessWidget {
                 height: 45,
               )),
             ),
-            ListTile(
-              leading: Icon(Icons.home),
-              title: Text(
-                'Accueil',
-                style: TextStyle(
-                  fontSize: 22,
-                  color: Colors.grey[600],
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                leading: Icon(Icons.home),
+                title: Text(
+                  'Accueil',
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.grey[600],
+                  ),
                 ),
               ),
             ),
-            ListTile(
-              leading: Icon(Icons.email),
-              title: Text(
-                'Contact',
-                style: TextStyle(
-                  fontSize: 22,
-                  color: Colors.grey[600],
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                leading: Icon(Icons.email),
+                title: Text(
+                  'Contact',
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.grey[600],
+                  ),
                 ),
               ),
             ),

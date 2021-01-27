@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ganga_app/app/categories.dart';
 import 'package:ganga_app/components/app_bar.dart';
 import 'package:ganga_app/components/drawar.dart';
 
@@ -21,7 +22,11 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       appBar: MyAppBar(),
       drawer: MyDrawar(),
-      body: Center(child: Text('Ganga Body')),
+      body: Column(
+        children: [
+          Categories(),
+        ],
+      ),
     );
   }
 }
